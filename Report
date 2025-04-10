@@ -1,23 +1,23 @@
-# Spare-parts-inventory-Forecasting-
-# Workflow and Key Steps:
-**1.Initial Data Checks and Cleaning:**
+
+ Workflow and Key Steps:
+1.Initial Data Checks and Cleaning:
 Conducted basic data validation and consistency checks.
 Handled missing values using appropriate imputation strategies.
 Converted date-related columns to datetime format and extracted relevant time components.
-**2.Exploratory Data Analysis:**
+2.Exploratory Data Analysis:
 Analyzed feature-level trends over time to identify usage patterns.
 Investigated the target variable (consumption or demand) in relation to other factors such as part category, supplier, and lead time.
 Visualized trends, seasonality, and outliers to understand data behavior.
-**3.Time Series Preparation:**
+3.Time Series Preparation:
 Performed stationarity tests using methods like the Augmented Dickey-Fuller (ADF) test.
 Analyzed autocorrelation and partial autocorrelation plots to identify significant lags.
 Checked for seasonality and identified repeating patterns and periodicity in demand.
-**4.Data Splitting:**
+4.Data Splitting:
 Created training and testing datasets based on time-based splitting to ensure proper chronological order.
-**5.Modeling and Forecasting:**
+5.Modeling and Forecasting:
 Implemented the ARIMA model for forecasting future demand.
 Performed hyperparameter tuning of ARIMA using grid search or AIC-based selection for optimal (p, d, q) values.
 Evaluated model performance using error metrics like RMSE or MAPE.
-**6.Future Forecasting:**
+6.Future Forecasting:
 Generated future demand forecasts using the optimized ARIMA model.
 Visualized predictions to support inventory planning and decision-making.
